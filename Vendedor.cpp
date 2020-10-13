@@ -3,12 +3,13 @@
 
 class Vendedor : public Empregado {
 
-  public:
-    std::string nome;  	  
-	
-	double quotaTotalAnual() {
-	  return quotaMensalVendas * 12;
-	}
-	
+  private:
+    std::string nomeVendedor;  	  
+  public:	
+    double quotaTotalAnual() {
+    	const double meses= 12;
+    	double pagamentoTotal= quotaMensalVendas * meses;	    
+    	return pagamentoTotal;
+    }	
 };
 
