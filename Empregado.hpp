@@ -8,7 +8,6 @@ class Empregado {
 	
   private:
     double salarioHora;  
-    double quotaMensalVendas; 
     std::string nomeEmpregado;
   public:	
     double pagamentoMes(double horasTrabalhadas) {
