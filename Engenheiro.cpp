@@ -4,6 +4,6 @@
 class Engenheiro : public Empregado {
 
   private: 
-	int numeroProjetos;
+	int numerosProjetos;
 };
 
