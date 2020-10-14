@@ -3,8 +3,7 @@
 
 class Engenheiro : public Empregado {
 
-  private:
-  	std::string nomeEngenheiro;  
+  private: 
 	int numeroProjetos;
 };
 
